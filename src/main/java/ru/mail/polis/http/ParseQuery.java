@@ -4,6 +4,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -15,9 +16,18 @@ public class ParseQuery {
 
     private static final String QUERY_ID = "id";
     private static final String QUERY_REPLICAS = "replicas";
+    private static final Map<String, QueryParams> cache;
+
+    static {
+        cache = new HashMap<>();
+    }
 
     public static QueryParams parseQuery(@NotNull String query,
                                          @NotNull List<String> topology) {
+        if (cache.containsKey(query)) {
+            return cache.get(query);
+        }
+
         Map<String, String> params = parseParams(query);
         String id = params.get(QUERY_ID);
         int ack;
@@ -35,7 +45,9 @@ public class ParseQuery {
             throw new IllegalArgumentException("Query is invalid");
         }
 
-        return new QueryParams(id, ack, from);
+        QueryParams par  = new QueryParams(id, ack, from);
+        cache.put(id, par);
+        return par;
     }
 
     private static Map<String, String> parseParams(@NotNull String query) {
