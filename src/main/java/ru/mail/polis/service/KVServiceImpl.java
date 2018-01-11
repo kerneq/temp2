@@ -50,9 +50,6 @@ public class KVServiceImpl implements KVService {
                          @NotNull Storage dao,
                          @NotNull Set<String> topology) throws IOException {
         this.server = HttpServer.create(new InetSocketAddress(port), 0);
-        this.server.setExecutor(Executors.newFixedThreadPool(
-                Runtime.getRuntime().availableProcessors()
-        ));
         this.dao = dao;
         this.topology = new ArrayList<>(topology);
         Executor executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
