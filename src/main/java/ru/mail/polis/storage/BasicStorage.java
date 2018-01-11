@@ -7,13 +7,17 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.NoSuchElementException;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
 
 public class BasicStorage implements Storage {
 
     private final String dir;
+    private final Executor exec;
 
     public BasicStorage(String dir) {
         this.dir = dir;
+        exec = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
     }
 
     @NotNull
@@ -28,12 +32,28 @@ public class BasicStorage implements Storage {
 
     @Override
     public void upsert(@NotNull String id, @NotNull byte[] value) throws IllegalArgumentException, IOException {
-        Files.write(Paths.get(dir, id), value);
+        // то может ускорить вставку данных, но мы можем получить
+        // java.nio.file.NoSuchFileException когда быстро обращаемся к
+        // вставляемому файлу
+
+        //exec.execute(() -> {
+            try {
+                Files.write(Paths.get(dir, id), value);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        //});
     }
 
     @Override
     public void delete(@NotNull String id) throws IllegalArgumentException, IOException {
-        Files.deleteIfExists(Paths.get(dir, id));
+        exec.execute(() -> {
+            try {
+                Files.deleteIfExists(Paths.get(dir, id));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
     }
 
 }

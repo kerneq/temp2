@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62d8e3df-b896-4c0c-bc35-7d1f7592cc13" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/java/main/ru/mail/polis/service/KVServiceImpl.class" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/mail/polis/service/KVServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/mail/polis/storage/BasicStorage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/mail/polis/storage/BasicStorage.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,8 +24,8 @@
       <file leaf-file-name="BasicStorage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/polis/storage/BasicStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="260">
+              <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -702,7 +701,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SingleNodeTest">
+  <component name="RunManager" selected="JUnit.TwoNodeTest">
     <configuration default="false" name="SingleNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1177,9 +1176,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SingleNodeTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TwoNodeTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ThreeNodeTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TwoNodeTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ThreeNodeTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SingleNodeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1199,44 +1198,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515670086531</updated>
-      <workItem from="1515670089017" duration="298000" />
+      <workItem from="1515670089017" duration="596000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SingleNodeTest - 2018.01.11 at 14h 29m 35s.xml">
+    <history-entry file="SingleNodeTest - 2018.01.11 at 14h 33m 14s.xml">
       <configuration name="SingleNodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingleNodeTest - 2018.01.11 at 14h 30m 14s.xml">
+    <history-entry file="SingleNodeTest - 2018.01.11 at 14h 35m 40s.xml">
       <configuration name="SingleNodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingleNodeTest - 2018.01.11 at 14h 30m 44s.xml">
-      <configuration name="SingleNodeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreeNodeTest - 2018.01.11 at 14h 31m 31s.xml">
+    <history-entry file="ThreeNodeTest - 2018.01.11 at 14h 36m 12s.xml">
       <configuration name="ThreeNodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreeNodeTest - 2018.01.11 at 14h 31m 50s.xml">
-      <configuration name="ThreeNodeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreeNodeTest - 2018.01.11 at 14h 32m 57s.xml">
-      <configuration name="ThreeNodeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwoNodeTest - 2018.01.11 at 14h 30m 54s.xml">
+    <history-entry file="TwoNodeTest - 2018.01.11 at 14h 35m 49s.xml">
       <configuration name="TwoNodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoNodeTest - 2018.01.11 at 14h 31m 12s.xml">
+    <history-entry file="TwoNodeTest - 2018.01.11 at 14h 36m 00s.xml">
       <configuration name="TwoNodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoNodeTest - 2018.01.11 at 14h 31m 21s.xml">
+    <history-entry file="TwoNodeTest - 2018.01.11 at 14h 36m 27s.xml">
       <configuration name="TwoNodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoNodeTest - 2018.01.11 at 14h 33m 06s.xml">
+    <history-entry file="TwoNodeTest - 2018.01.11 at 14h 36m 38s.xml">
+      <configuration name="TwoNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoNodeTest - 2018.01.11 at 14h 36m 44s.xml">
+      <configuration name="TwoNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoNodeTest - 2018.01.11 at 14h 36m 54s.xml">
+      <configuration name="TwoNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoNodeTest - 2018.01.11 at 14h 37m 00s.xml">
       <configuration name="TwoNodeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298000" />
+    <option name="totallyTimeSpent" value="596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-4" width="1307" height="772" extended-state="6" />
@@ -1252,7 +1251,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980174" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1319,8 +1318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/polis/storage/BasicStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="260">
+          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding />
         </state>
       </provider>
