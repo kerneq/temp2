@@ -16,31 +16,24 @@ public class BasicStorage implements Storage {
         this.dir = dir;
     }
 
-    private Path getPath(String id) {
-        if (id.isEmpty()) {
-            throw new IllegalArgumentException("ID is empty");
-        }
-        return Paths.get(dir, id);
-    }
-
     @NotNull
     @Override
     public byte[] get(@NotNull String id) throws NoSuchElementException, IllegalArgumentException, IOException {
-        Path path = getPath(id);
+        Path path = Paths.get(dir, id);
         if (!Files.exists(path)) {
             throw new NoSuchElementException("Invalid ID: " + id);
         }
-        return Files.readAllBytes(getPath(id));
+        return Files.readAllBytes(Paths.get(dir, id));
     }
 
     @Override
     public void upsert(@NotNull String id, @NotNull byte[] value) throws IllegalArgumentException, IOException {
-        Files.write(getPath(id), value);
+        Files.write(Paths.get(dir, id), value);
     }
 
     @Override
     public void delete(@NotNull String id) throws IllegalArgumentException, IOException {
-        Files.deleteIfExists(getPath(id));
+        Files.deleteIfExists(Paths.get(dir, id));
     }
 
 }
