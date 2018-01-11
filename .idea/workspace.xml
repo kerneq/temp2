@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62d8e3df-b896-4c0c-bc35-7d1f7592cc13" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/mail/polis/util/GetServers.java" afterPath="$PROJECT_DIR$/src/main/java/ru/mail/polis/util/GetServers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/mail/polis/service/KVServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/mail/polis/service/KVServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -21,47 +22,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ThreeNodeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/mail/polis/ThreeNodeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetServers.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/polis/util/GetServers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwoNodeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/mail/polis/TwoNodeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingleNodeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/mail/polis/SingleNodeTest.java">
+      <file leaf-file-name="KVServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/polis/service/KVServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
+              <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2495#2496#0" expanded="true" />
+                <element signature="e#2525#2526#0" expanded="true" />
+                <element signature="e#2565#2566#0" expanded="true" />
+                <element signature="e#2595#2596#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>completionService</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -453,6 +435,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/mail/polis/http/ParseQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/mail/polis/util/DataReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/mail/polis/util/GetServers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/mail/polis/service/KVServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -742,7 +725,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SingleNodeTest">
+  <component name="RunManager" selected="JUnit.ThreeNodeTest">
     <configuration default="false" name="SingleNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1217,9 +1200,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SingleNodeTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ThreeNodeTest" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.TwoNodeTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ThreeNodeTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SingleNodeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1239,48 +1222,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515670086531</updated>
-      <workItem from="1515670089017" duration="1647000" />
+      <workItem from="1515670089017" duration="4059000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SingleNodeTest - 2018.01.11 at 14h 52m 22s.xml">
+    <history-entry file="SingleNodeTest - 2018.01.11 at 15h 24m 13s.xml">
       <configuration name="SingleNodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingleNodeTest - 2018.01.11 at 14h 53m 30s.xml">
+    <history-entry file="SingleNodeTest - 2018.01.11 at 15h 35m 11s.xml">
       <configuration name="SingleNodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingleNodeTest - 2018.01.11 at 14h 53m 41s.xml">
-      <configuration name="SingleNodeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreeNodeTest - 2018.01.11 at 14h 53m 57s.xml">
+    <history-entry file="ThreeNodeTest - 2018.01.11 at 15h 14m 22s.xml">
       <configuration name="ThreeNodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreeNodeTest - 2018.01.11 at 14h 54m 19s.xml">
+    <history-entry file="ThreeNodeTest - 2018.01.11 at 15h 14m 48s.xml">
       <configuration name="ThreeNodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreeNodeTest - 2018.01.11 at 14h 54m 33s.xml">
+    <history-entry file="ThreeNodeTest - 2018.01.11 at 15h 18m 14s.xml">
       <configuration name="ThreeNodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreeNodeTest - 2018.01.11 at 14h 54m 41s.xml">
+    <history-entry file="ThreeNodeTest - 2018.01.11 at 15h 22m 04s.xml">
       <configuration name="ThreeNodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreeNodeTest - 2018.01.11 at 14h 55m 25s.xml">
+    <history-entry file="ThreeNodeTest - 2018.01.11 at 15h 23m 21s.xml">
       <configuration name="ThreeNodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoNodeTest - 2018.01.11 at 14h 53m 49s.xml">
+    <history-entry file="ThreeNodeTest - 2018.01.11 at 15h 35m 51s.xml">
+      <configuration name="ThreeNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoNodeTest - 2018.01.11 at 15h 23m 29s.xml">
       <configuration name="TwoNodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoNodeTest - 2018.01.11 at 14h 55m 36s.xml">
+    <history-entry file="TwoNodeTest - 2018.01.11 at 15h 35m 39s.xml">
       <configuration name="TwoNodeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1647000" />
+    <option name="totallyTimeSpent" value="4059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-4" width="1307" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1290,11 +1272,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31391585" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5533981" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980174" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29817605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1389,19 +1371,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/mail/polis/ThreeNodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/polis/util/GetServers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/mail/polis/ThreeNodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/polis/KVServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/polis/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/polis/Cluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/polis/service/KVServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2495#2496#0" expanded="true" />
+            <element signature="e#2525#2526#0" expanded="true" />
+            <element signature="e#2565#2566#0" expanded="true" />
+            <element signature="e#2595#2596#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
